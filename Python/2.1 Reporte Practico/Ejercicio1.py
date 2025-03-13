@@ -1,0 +1,5 @@
+nombre = input("Ingrese su nombre: ")
+semestre = input("Ingrese su semestre: ")
+grupo = input("Ingrese su grupo: ")
+carrera = input("Ingrese su carrera: ")
+print("Hola", nombre, "del grupo", grupo, "de", carrera, ", semestre", semestre)
