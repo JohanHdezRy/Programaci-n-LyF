@@ -1,0 +1,16 @@
+
+--el riego se activa si:
+    humedad(baja)
+    temperatura()
+    hora-adecuada(8pm)
+    probabilidad de lluvia(baja)
+
+--si el riego esta activado, se registra el estado como "activado" sino, como  "no activado"
+
+--alerta para condiciones extremas
+    temperatura(<=32)
+    si se activa con esas condiciones, emite un mensaje
+    "alerta: riego activado cpn temperatura alta. considere riego nocturno
+
+--caso contrario
+    "sin recomendacio"
